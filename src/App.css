@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(179, 233, 255);
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-details p {
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  font-size: 24px;
+}
+
+.weather-icon.rain {
+  color: #1573d6;
+}
+
+.weather-icon.sunny {
+  color: #f2d045;
+}
+
+.weather-icon.cloudy {
+  color: #8797a3;
+}
